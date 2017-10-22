@@ -1,0 +1,25 @@
+version: '3'
+services:
+  webapp:
+    build:
+      context: ./src/CodeConf.WebApp
+    image: bgever/hkcodeconf2017-webapp
+    ports:
+      - "5000:80"
+    links:
+      - api
+  api:
+    build:
+      context: ./src/CodeConf.Api
+    image: bgever/hkcodeconf2017-api
+    expose:
+      - "5000"
+    links:
+      - db
+  db:
+    image: microsoft/mssql-server-linux:2017-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=HKCodeConf2017!
+    ports:
+      - "1433:1433"

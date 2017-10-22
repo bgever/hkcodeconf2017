@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Speakers";
+}
+
+<h2>Speakers</h2>
+
+@foreach(string speaker in (IEnumerable<string>)ViewData["Speakers"]){
+    <p>@speaker</p>
+}

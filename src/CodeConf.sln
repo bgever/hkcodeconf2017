@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeConf.Api", "CodeConf.Api\CodeConf.Api.csproj", "{66C4BCA1-9676-4280-B4B7-B41AE53F94FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeConf.WebApp", "CodeConf.WebApp\CodeConf.WebApp.csproj", "{FEB1EC59-ADD4-4DD4-B041-7F053DEE3470}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66C4BCA1-9676-4280-B4B7-B41AE53F94FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C4BCA1-9676-4280-B4B7-B41AE53F94FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C4BCA1-9676-4280-B4B7-B41AE53F94FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C4BCA1-9676-4280-B4B7-B41AE53F94FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB1EC59-ADD4-4DD4-B041-7F053DEE3470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB1EC59-ADD4-4DD4-B041-7F053DEE3470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB1EC59-ADD4-4DD4-B041-7F053DEE3470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB1EC59-ADD4-4DD4-B041-7F053DEE3470}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
