@@ -1,6 +1,6 @@
 *Source code of talk given at [Hong Kong Code Conference 2017][codeconf].*
 
-# Cross-platform .NET apps and microservices
+# Cross-platform .NET apps and microservices
 
 ## Prerequisites
 
